@@ -1,6 +1,11 @@
 # WebJSBridged
 A project that provides the interaction between Swift and JavaScript methods with an easily way
 
+We see two figures in advance.
+![WebJSBridged Figure Photo 1](https://github.com/VictorZhang2014/WebJSBridged/blob/master/Images/WebJSBridged_Figure_1.gif "WebJSBridged_Figure_1")
+![WebJSBridged Figure Photo 2](https://github.com/VictorZhang2014/WebJSBridged/blob/master/Images/WebJSBridged_Figure_2.jpeg "WebJSBridged_Figure_2")
+
+
 ## Target
 ```
 1. JavaScript methods call Swift methods
