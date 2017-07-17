@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <title>JS SDK Debug Page</title>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+                
+            <link rel="stylesheet" href="style.css">
+            <script type="text/javascript" src="jquery-1.7.2.js"></script>
+            <script src="JSbridge.js"></script>
+    </head>
+    <body ontouchstart="">
+        <div class="wxapi_container">
+            <div class="lbox_close wxapi_form">
+                
+                    <H3 id="menu-basic">JS Log In</H3>
+                    <SPAN class="desc">App Key &nbsp; : </SPAN><input id="app_key_login" type="text" value="12345" style="width:60%;height:20px;"> <br/>
+                    <SPAN class="desc">App Secret : </SPAN><input id="secret_login" type="text" value="54321" style="width:60%;height:20px;">
+                    <BUTTON class="btn btn_primary" id="authenticate_check">Authenticate</BUTTON>
+                    
+                    <h3 id="menu-basic">JS Modify Title</h3>
+                    <SPAN class="desc">Modify Title : </SPAN><input id="modify_title_input" value="hello world" type="text" style="width:60%;height:20px;">
+                    <BUTTON class="btn btn_primary" id="modify_title">Modify Title</BUTTON>
+                        
+                    <h3 id="menu-image">JS Image Interfaces</h3>
+                    <span class="desc">Choose image or Take photo from iPhone Image Library</span>
+                    <button class="btn btn_primary" id="chooseImage">chooseImage</button>
+                        
+                    <span class="desc">Preview Selected Image</span>
+                    <button class="btn btn_primary" id="previewImage">Preview Selected Image</button>
+                        
+                    <H3 id="menu-location">JS Take Photo</H3>
+                    <SPAN class="desc">Take Photo</SPAN>
+                    <BUTTON class="btn btn_primary" id="takePhoto">takePhoto</BUTTON>
+                    
+                    <H3 id="menu-scan">JS Get WiFi Info</H3>
+                    <SPAN class="desc">Get WiFi Info</SPAN>
+                    <BUTTON class="btn btn_primary" id="GetWiFiInfo">Get WiFi Info</BUTTON>
+                    
+                    <br/>
+                    </div>
+                <div>
+                <img id="images" style="width:100%;height:300px;" />
+            </div>
+        </div>
+    </body>
+</html>
