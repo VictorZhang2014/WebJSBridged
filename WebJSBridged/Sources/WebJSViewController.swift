@@ -186,7 +186,6 @@ class WebJSViewController: UIViewController, UIWebViewDelegate, UIImagePickerCon
             
             return
         }
-        
     }
 
     
